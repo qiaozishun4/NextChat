@@ -66,7 +66,7 @@ yarn install
 
 OPENAI_API_KEY="sk-VvezUVv4d7HI1Ye4119252C11d3d4f93BeA3D77a99301f6d"
 CODE="test"
-PORT="80"
+PORT="localhost:80"
 BASE_URL="https://free.v36.cm"
 
 # Build and run the project using the environment variables

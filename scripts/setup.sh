@@ -59,9 +59,15 @@ cd ChatGPT-Next-Web
 yarn install
 
 # Prompt user for environment variables
-read -p "Enter OPENAI_API_KEY: " OPENAI_API_KEY
-read -p "Enter CODE: " CODE
-read -p "Enter PORT: " PORT
+
+# read -p "Enter OPENAI_API_KEY: " OPENAI_API_KEY
+# read -p "Enter CODE: " CODE
+# read -p "Enter PORT: " PORT
+
+OPENAI_API_KEY="sk-VvezUVv4d7HI1Ye4119252C11d3d4f93BeA3D77a99301f6d"
+CODE="test"
+PORT="80"
+BASE_URL="https://free.v36.cm"
 
 # Build and run the project using the environment variables
 OPENAI_API_KEY=$OPENAI_API_KEY CODE=$CODE PORT=$PORT yarn build
